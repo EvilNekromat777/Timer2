@@ -103,6 +103,11 @@ h6 {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 380px) {
+  .foto {
+    height: 250px;
+  }
+}
 
 h1 {
   font-size: 42px;
