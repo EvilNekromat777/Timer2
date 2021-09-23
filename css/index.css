@@ -108,19 +108,26 @@ h1 {
   font-size: 42px;
   font-family: "Stick No Bills", sans-serif;
   font-weight: 600;
-  max-width: 600px;
+  text-align: center;
   margin: 30px auto;
+}
+@media (max-width: 638px) {
+  h1 {
+    font-size: 32px;
+    margin: 15px auto;
+  }
 }
 
 h2 {
   font-size: 36px;
-  max-width: 350px;
+  text-align: center;
   margin: 0 auto;
 }
 
 .timer {
   margin: 60px auto;
   max-width: 800px;
+  padding: 0px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,4 +154,42 @@ h2 {
   margin-bottom: 5px;
   font-size: 56px;
   font-weight: 700;
+}
+
+@media (max-width: 478px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .timer {
+    margin: 20px auto;
+  }
+  .timer__block {
+    width: 70px;
+    height: 100px;
+  }
+  .timer__block span {
+    font-size: 36px;
+  }
+}
+@media (max-width: 360px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .timer__block {
+    width: 60px;
+    height: 80px;
+  }
+  .timer__block span {
+    margin-top: 10px;
+  }
 }
