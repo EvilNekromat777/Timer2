@@ -94,45 +94,21 @@ h6 {
 .wrapper {
   background-color: rgba(247, 242, 242, 0.5);
   height: 100vh;
+  padding-top: 20px;
 }
 
 .foto {
-  width: 100%;
-  height: 300px;
-  background: url("../images/fon.jpg") no-repeat;
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+  background: url("../images/zub.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
 }
-@media (max-width: 400px) {
-  .foto {
-    height: 250px;
-  }
-}
-
-h1 {
-  font-size: 42px;
-  font-family: "Stick No Bills", sans-serif;
-  font-weight: 600;
-  text-align: center;
-  margin: 30px auto;
-}
-@media (max-width: 638px) {
-  h1 {
-    font-size: 32px;
-    margin: 15px auto;
-  }
-}
-
-h2 {
-  font-size: 36px;
-  text-align: center;
-  margin: 0 auto;
-}
 
 .timer {
-  margin: 60px auto;
-  max-width: 800px;
-  padding: 0px 15px;
+  max-width: 400px;
+  padding: 0px 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,59 +118,22 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 20px auto;
 }
 .timer__block {
-  width: 102px;
-  height: 120px;
   background: #fff;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   font-size: 16px;
   font-weight: 300;
   text-align: center;
+  width: 70px;
+  height: 100px;
 }
 .timer__block span {
   display: block;
   margin-top: 20px;
   margin-bottom: 5px;
-  font-size: 56px;
   font-weight: 700;
-}
-
-@media (max-width: 478px) {
-  h1 {
-    font-size: 24px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
-
-  .timer {
-    margin: 20px auto;
-  }
-  .timer__block {
-    width: 70px;
-    height: 100px;
-  }
-  .timer__block span {
-    font-size: 36px;
-  }
-}
-@media (max-width: 360px) {
-  h1 {
-    font-size: 20px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  .timer__block {
-    width: 60px;
-    height: 80px;
-  }
-  .timer__block span {
-    margin-top: 10px;
-  }
+  font-size: 36px;
 }
